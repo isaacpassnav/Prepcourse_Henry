@@ -1,0 +1,52 @@
+body {
+    background-color: red;
+}
+
+.title{
+    font-size: 30px;
+
+}
+#principal{
+    font-size: 50px;
+}
+.logo{
+    width: 300px ;
+    height: 200px;
+}
+.cards{
+    border: 2px solid black;
+    width: fit-content;
+    padding: 1em 1em 2em 1em;
+    border-radius: 10%;
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    align-items: center;
+
+}
+.cards:hover{
+    background-color: chartreuse;
+}
+#titulos{
+    border: 2px solid black;
+    /*viewport width*/
+    width: 60vw;
+    margin: auto;
+    padding: 3em;
+    display: flex;
+    flex-direction: column;
+}
+#cards_container{
+    background-color: blueviolet;
+    width: 95vw;
+    margin: auto;
+    margin-top: 1.5em;
+    border: 5px solid black;
+    border-radius: 4%;
+    padding: 2em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
